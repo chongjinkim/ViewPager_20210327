@@ -10,7 +10,6 @@ import com.nepplus.viewpager_20210327.R
 class PageFragment2 : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        return super.onCreateView(inflater, container, savedInstanceState)
 
         return inflater.inflate(R.layout.fragment_page2, container, false)
     }
